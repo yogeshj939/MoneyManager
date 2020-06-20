@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_transactions">
+
+    <fragment
+        android:id="@+id/navigation_transactions"
+        android:name="com.deathstroke.moneymanager.ui.transactions.TransactionsFragment"
+        android:label="@string/title_transactions"
+        tools:layout="@layout/fragment_transactions" />
+
+    <fragment
+        android:id="@+id/navigation_statistics"
+        android:name="com.deathstroke.moneymanager.ui.statistics.StatisticsFragment"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/fragment_statistics" />
+
+    <fragment
+        android:id="@+id/navigation_categories"
+        android:name="com.deathstroke.moneymanager.ui.Categories.CategoriesFragment"
+        android:label="@string/title_categories"
+        tools:layout="@layout/fragment_categories" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.deathstroke.moneymanager.ui.account.AccountFragment"
+        android:label="@string/title_account"
+        tools:layout="@layout/fragment_account" />
+</navigation>

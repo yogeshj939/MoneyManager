@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Money Manager</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="title_account">Account</string>
+    <string name="title_transactions">Transactions</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="title_categories">Categories</string>
+    <string name="text_income">Income</string>
+    <string name="text_expense">Expense</string>
+    <string name="text_remaining">Remains</string>
+</resources>
